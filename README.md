@@ -15,7 +15,7 @@ Verdict: Good tutorials.  Nice and clear.  Despite the order in which I approach
 5. Create `webpack.config.js`.  See the repo for samples.
 6. `npm i react react-dom` if React is what's up.
 7. Create whatever directory structure is needed.
-8. Fire it up!  `npm run build` It should be exporting files to `.dist/main.js`
+8. Fire it up!  `npm run build` It should be exporting files from `/src/` to `/dist/main.js`.  Don't forget `/src/index.js`!
 9. `npm i -D html-webpack-plugin html-loader`
 10. Update Webpack config to use html-loader and html-webpack-plugin.  See the repo for samples.
 11. Create HTML in `./src/index.html`
