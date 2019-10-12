@@ -11,11 +11,11 @@ Verdict: Good tutorials.  Nice and clear.  Despite the order in which I approach
 1. `npm init`
 2. `npm i -D webpack webpack-cli`
 3. Add `"build": "webpack --mode production"` and anything else needed to get started in `package.json`
- 4. `npm i -D @babel/core @babel/preset-env @babel/preset-react ...etc`
+ 4. `npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react ...etc`
 5. Create `webpack.config.js`.  See the repo for samples.
 6. `npm i react react-dom` if React is what's up.
 7. Create whatever directory structure is needed.
-8. Fire it up!  It should be exporting files to `.dist/main.js`
+8. Fire it up!  `npm run build` It should be exporting files to `.dist/main.js`
 9. `npm i -D html-webpack-plugin html-loader`
 10. Update Webpack config to use html-loader and html-webpack-plugin.  See the repo for samples.
 11. Create HTML in `./src/index.html`
