@@ -8,7 +8,7 @@ Following two Webpack tutorials by Valentino Gagliardi:
 
 Verdict: Good tutorials. Nice and clear. Despite the order in which I approached them I think `valentino` is an evolution of `valentino2`. `valentino2` is a bit more thorough, showing how to get Webpack working with css and Vue and not just React, Babel, and HTML.
 
-Then later I needed a bit more schooling so I checked out the [OG Webpack Tutorial](https://webpack.js.org/guides/getting-started/). It's in the folder `og`.
+Then later I needed a bit more schooling so I checked out the [OG Webpack Tutorial](https://webpack.js.org/guides/getting-started/). It's in the folder `og`. I added the folder `og-2` to continue the tutorial through the ['asset management' and 'development' sections](https://webpack.js.org/guides/output-management/) without wiping out the code from the first part of the tutorial.
 
 ## Steps to packing your Web with Babel:
 
